@@ -53,6 +53,8 @@ html {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    row-gap: 5rem;
+    align-items: center;
     font-size: 3rem;
     padding-top: 20rem;
     padding-bottom: 20rem;
@@ -125,3 +127,85 @@ html {
     color: #000;
 }
 /*Fin del contenido de contacto*/
+
+/* CONTENIDO DE NOSOTROS */
+/* INICIO DE HEROSECTION-NOSOTROS*/
+.herosection-nosotros{
+    background-image: url(../multimedia/render.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 3rem;
+    align-items: center;
+    font-size: 3rem;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    color: rgb(255, 252, 53);
+}
+/* FIN DE HEROSECTION-NOSOTROS */
+
+
+/* INICIO DE TIENDA */
+/* INICIO DE CONTAINER-ARTICULOS */
+.section-store {
+    background-image: url(../multimedia/render.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 1.6rem;
+    padding: 5rem;
+    color: rgb(108, 255, 115);
+}
+
+.container-articulos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.articulo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.img-art img {
+    width: 90%;
+}
+
+.art-description {
+    display: block;
+}
+
+.btn-art {
+    background-color: #fff000;
+    border-radius: 12px;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: center;
+    transition: 200ms;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.btn-art:hover {
+    outline: 0;
+    background: #fdf899;
+    box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.btn-art:focus {
+    background-color: #978f22;
+}
+
